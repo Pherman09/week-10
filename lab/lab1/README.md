@@ -125,5 +125,4 @@ geometry is clicked.
 At this point, we should have a fully functional map ready to be
 published to the web. Click `Publish` in the top right, and grab the
 CartoDB.js link for later use in the assignment.
-
-
+Drop a link to your map in the gitter

@@ -25,6 +25,7 @@ function pointsWithin(rect) {
   $.ajax('https://moradology.cartodb.com/api/v2/sql/?q=' + sql).done(function(results) {
     //console.log('pointsWithin:', results);
     addRecords(results);
+    console.log(results);
   });
 }
 
@@ -61,4 +62,3 @@ function addRecords(cartodbResults) {
   $('#project-list').empty();
   _.each(cartodbResults.rows, addOneRecord);
 }
-

@@ -23,48 +23,29 @@ body {
     padding-bottom: 60px;
 }
 
-.item {
-    padding: 10px;
-    background-color: #eee;
+.cartodb-popup.v2{
+  color: red;
 }
 
-.item:not(:last-child) {
-    margin-bottom: 10px;
+
+div.cartodb-popup.v2 div.cartodb-popup-content-wrapper{
+  width:240px;
 }
 
-.item-heading {
-    font-size: 18px;
-    margin-top: 0;
-    font-weight: bold;
+#LowerNum{
+  color:#af8dc3;
+  text-align: center;
 }
 
-.sort {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 340px;
-    background-color: #fff;
-    padding: 20px;
+#UpperNum{
+  color: #7fbf7b;
+  text-align: center;
+ }
+
+.box{
+  padding:5px;
 }
 
-.sort-option {
-    margin-left: 10px;
-}
-
-.sort-option.selected {
-    border-bottom: 1px solid #ccc;
-}
-
-.sidebar nav.navbar-default {
-    border: 0;
-    border-radius: 0;
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-    margin: -14px -20px 20px;
-    padding: 0 5px;
-}
-
-.navbar-brand {
-    font-size: 14px;
-    font-weight: bold;
-}
+ .btn{
+   margin-bottom:5px;
+ }
